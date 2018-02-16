@@ -1,0 +1,20 @@
+html, body {
+  font-family: $default-font;
+  height: 100%;
+  line-height: pxtorem($default-line-height);
+}
+
+a {
+  text-decoration: none;
+}
+
+li.node-readmore a:after {
+  @include icomoon('caret-right');
+  font-size: 50%;
+  vertical-align: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $default-font;
+  margin: 0 0 5px;
+}

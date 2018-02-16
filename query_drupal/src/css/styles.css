@@ -1,0 +1,42 @@
+.blockResult{
+
+}
+
+.elastic{
+
+}
+
+.contentResult{
+  font-family: arial,sans-serif;
+  border-bottom: 0.5px solid #eee;
+  padding: 1em;
+}
+
+.contentResult h3{
+  font-size: 16px;
+  color: #1a0dab;
+}
+
+.contentResult p{
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  color: #545454;
+}
+
+.link-color {
+ font-size: 14px !important;
+ color:green !important;
+}
+
+
+.linkResult{
+
+}
+
+.linkResult span{
+
+}
+
+.linkResult b{
+  color: gray;
+}

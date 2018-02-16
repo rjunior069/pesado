@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="autoApp">
+<head>
+  <title>Auto inscrição</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="src/css/bootstrap.min.css">
+  <script src="src/lib/jquery-3.2.1.min.js"></script>
+  <script src="src/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="src/css/styles.css" />
+  <script src="src/lib/angular/angular.min.js"></script>
+  <!-- codes angular funcionalidades -->
+  <script src="src/js/autoinscricao/app.js"></script>
+  <noscript>
+      <div class="hero-unit">
+        <h2>Atenção Usuário!</h2>
+        <ul>
+          <li>Aparentemente seu navegador está com o JavaScript desabilitado.
+           Essa configuração impedirá que a Parte Diária funcione corretamente.
+           Corrija o problema e clique no botão abaixo para tentar novamente.</li>
+        </ul>
+        <p>
+          <a class="btn btn-warning btn-lg" href="/pdi/">
+            Tentar Novamente
+          </a>
+        </p>
+      </div>
+  </noscript>
+</head>
+<body ng-controller="autoInsc">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="#" class="navbar-brand logo">
+        <img width="95" title="" alt="" src="data:image/png;base64,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" />
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!-- <ul class="nav navbar-nav">
+        <li><a href="#">CMS</a></li>
+      </ul> -->
+      <p class="navbar-text">Inscrição por UORG</p>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 text-left ">
+      <div class="row container">
+        <div class="col-sm-2"></div>
+          <div class="col-sm-6 text-left">
+            <div class="main-content content-wrapper" ng-show="showMsg">
+              <div class="alert alert-danger" ng-show="msg==false">
+                <button class="close" data-dismiss="alert">×</button>
+                não foi possivel fazer a alteração
+              </div>
+              <div class="alert alert-success" ng-show="msg">
+                <button class="close" data-dismiss="alert">×</button>
+                alteração feita com sucesso
+              </div>
+            </div>
+          </div> 
+      </div>
+      <h1>Inscrição por UORG</h1>      
+      <hr>
+      <div class="container">
+        <div class="row">
+          <form ng-submit="submit()" name="autoForm">
+            <div class="col-sm-5">                    
+                <div class="card-block">
+                  <label for="ngvalueselect">Categoria:</label>
+                  <div class="select category">                 
+                     <select 
+                      size="6"
+                      class="category-select"
+                      name="ngvalueselect"
+                      ng-model="form.selectId"
+                      ng-change="isChecked(form.selectId)"
+                      >
+                      <option
+                        class="category-select-option"
+                        ng-repeat="option in availableOptions"
+                        ng-value="option.categoryid"
+                      >
+                        {{option.backpath}}
+                      </option>
+                    </select >
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <div class="card-block" >
+                  <label>UORGs</label>
+                  <div class="stocking">
+                    <div class="stoking-box">
+                      <label class="checkbox" for="checkAll">
+                          <input
+                          type="checkbox"
+                          id="checkAll"
+                          name='checkAll'
+                          ng-model="checkAll"
+                          ng-click="checkAllItens()"
+                          >
+                          Marcar todos
+                      </label>
+                      <span ng-repeat="role in roles">
+                        <label class="checkbox" for="check{{role.idUnidadeOrganizacional}}">
+                          <input
+                          type="checkbox"
+                          id="check{{role.idUnidadeOrganizacional}}"
+                          name='check[]'
+                          ng-model="form.data[form.selectId].unidades[role.idUnidadeOrganizacional].checked"
+                          >
+                          {{role.nome}}
+                        </label>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success" >Salvar</button>
+                <button type="button" class="btn btn-danger" back >Sair</button>   
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+<!-- <footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer> -->
+<script src="src/js/autoinscricao/autoInsc.js"></script>
+<script src="src/js/autoinscricao/back.js"></script>
+<script src="src/lib/loading/bootstrap-waitingfor.js"></script>
+</body>
+</html>

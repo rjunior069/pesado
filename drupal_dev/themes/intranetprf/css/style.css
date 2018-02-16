@@ -1,0 +1,495 @@
+
+ * Place your custom styles here.
+ */
+*{ font-family: Helvetica; }
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+
+body, html{
+   height: 100%;
+   margin: 0;
+/*   overflow: hidden;*/
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-inverse {
+  background-color: #150958; 
+  border-color: #150958; 
+}
+
+/*.navbar-inverse .container{ 
+  width: 100%;
+  margin: 0 25px 0;
+}*/
+
+footer {
+  margin-top: 30px;
+  background-color: #f3d712 !important;
+  color: #444 !important;
+}
+
+.jcarousel a{
+  font-size: 13px;
+  color: grey !important;
+}
+
+.logo{
+  margin-bottom: 10px;
+}
+
+.navbar-nav .fa-bars{
+  font-size: 1.5em !important;
+}
+.navbar-nav .fa-question-circle{
+  font-size: 1.5em !important;
+}
+.navbar-nav .fa-plus-circle{
+  font-size: 1.5em !important;
+}
+.navbar > .container .navbar-brand{ margin-left: 0; }
+.navbar-brand {
+  padding: 15px 0px !important;
+}
+
+.navbar-text{
+  text-decoration: none;
+  color: #fff !important;  
+  margin: 0px 15px;
+  font-size: 30px;
+  height: 50px;
+  font-weight: 400;
+}
+
+.div-form{
+  margin: auto;
+  width: 65%;
+}
+/*Divides dropdown menu in a grid of 3 columns*/
+/*.menu-icon-18 > ul {
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-gap: 10px;
+  grid-row: 10px;
+  line-height: 3;*/
+}
+.assinatura {
+  /*width: 1100px;
+  height:500px;*/
+  margin-bottom: -100px;
+}
+/*Stylizes dropdown menu icons*/
+.menu-icon-18 .dropdown-menu li > a{
+  line-height: 2;
+  color: #999;
+  font-size: 14px;
+}
+
+.menu-icon-1 .dropdown-menu li > a{
+  line-height: 2;
+  color: #999;
+  font-size: 14px;
+}
+
+.navbar-nav li .dropdown-menu {
+border-radius:5px;
+}
+.navbar-text .prf{ color: #f3d712 !important; }
+
+.navbar-inverse .navbar-nav>li>a { color: #fff; }
+
+.nav>li { margin-left: 20px; }
+.navbar-right>li { margin-left: 0px; }
+
+.container .brasao{
+  background: url(../screenshot.png) no-repeat;
+  width: 200px;
+  padding: 0 0 0 150px;
+  align-items: center;
+  margin: 200px 0 0 300px;
+  height: 150px;
+}
+
+.container .brasao .text-prf{
+  color: #1f1f60;
+  font-size: 100px;
+  font-weight: bolder;
+  padding: 10px 0 0;
+}
+
+.navbar-right{
+  position: relative;
+    left: -15px;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+.inner-addon { position: relative; }
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon .glyphicon { right: 0px;}
+.right-addon input { padding-right: 30px; }
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.dropdown-menu{
+  left: -80px;
+}
+#blockFeed{
+/*  margin: 150px auto 0;
+  overflow: hidden;*/
+}
+
+.blockFeed{
+  position: relative;
+/*  overflow: hidden;*/
+  float: left;
+  font-size: 11px !important;
+  color: dimgray !important;
+  padding-left: 0px !important;
+  padding: 0px !important;
+}
+.blockFeed img{
+  width: 100px;
+  height: 75px;
+  margin: 0px;
+
+}
+.blockFeedRepeat{
+  padding-right: 0px;
+}
+.contentResult{
+  font-family: arial,sans-serif;
+  border-bottom: 0.5px solid #eee;
+  padding: 1em;
+}
+.contentResult h3{
+  font-size: 16px;
+  color: #1a0dab;
+}
+.contentResult p{
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  color: #545454;
+}
+.link-color {
+ font-size: 14px !important;
+ color:green !important;
+}
+.linkResult b{
+  color: gray;
+}
+#searchFullResult{
+  width: 550px;
+  padding: 10px 0 0 0;
+  float: left;
+}
+
+.container .brasaoResult {
+    background: url(../brasao.png) no-repeat;
+    width: 45px;
+    height: 55px;
+    margin: 0 25px 0 0;
+    float: left;  
+}
+.blockResult{
+  clear: both;
+}
+.blockFeedRepeat a{
+  color: #999 !important;
+}
+.blockRespostas{
+  float: left;
+  padding: 20px;
+  text-align: justify;  
+  font-size: 14px;
+}
+
+
+.container {
+  width: 90%;
+}
+
+section.col-sm-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.main-container {
+  width: 67%;
+  height: auto;
+}
+
+.ulsubmenutopo-collapsible {
+  list-style:none !important;
+  position: relative !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.ulsubmenutopo-collapsible li {
+  margin-right: 30px !important;
+}
+
+.ulsubmenutopo {
+  list-style:none !important;
+  position: relative !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.ulsubmenutopo li {
+  display: inline !important;
+  position: relative !important;
+  margin-right: 30px !important;
+}
+
+#submenu-sistemas {
+  position: absolute !important;
+  top: 24px;
+  right: -100px;
+  width: 200px;
+  height: 260px;
+  border: 1px solid #150958;
+  border-top: 3px solid #150958;
+  background-color: #FFF;
+  text-align: center !important;
+  padding-top: 5px;
+  display: none;
+}
+
+#submenu-sistemas img {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+#submenu-sistemas p {
+  border-top: 1px solid #150958;
+  padding-top: 2px;
+  margin-top: 18px;
+}
+
+#submenu-sistemas p a {
+  color: #999 !important;
+  font-weight: bold !important;
+}
+
+/* ------------------------------------- */
+/* MAPA DO BRASIL - NOTICIAS */
+/* ------------------------------------- */
+.active { display:inherit; }
+ul#map {display: block; margin: 0; padding: 0; width: 570px; height: 585px; background-image: url('http://apachedrupal.desenvolvimento.prf/drupal_dev/mapa2/img/map.gif');}
+ul#map li {display: block; padding: 0; position: absolute;}
+li#crs {margin-top: 485px; margin-left: 237px; }
+li#csc {margin-top: 467px; margin-left: 292px;}
+li#cpr {margin-top: 416px; margin-left: 281px;}
+li#csp {margin-top: 375px; margin-left: 303px; z-index:9999; }
+li#cms {margin-top: 336px; margin-left: 229px;}
+li#crj {margin-top: 390px; margin-left: 422px; z-index:9999; }
+li#ces {margin-top: 347px; margin-left: 467px; z-index:9999; }
+li#cmg {margin-top: 292px; margin-left: 333px; z-index:9998; }
+li#cgo {margin-top: 264px; margin-left: 301px; z-index:9999; }
+li#cdf {margin-top: 311px; margin-left: 373px; z-index:9999; }
+li#cba {margin-top: 207px; margin-left: 397px;}
+li#cmt {margin-top: 189px; margin-left: 180px;}
+li#cro {margin-top: 199px; margin-left: 104px; z-index:9998; }
+li#cac {margin-top: 185px; margin-left: 0px;}
+li#cam {margin-top: 46px; margin-left: 3px;}
+li#crr {margin-top: 0; margin-left: 133px;}
+li#cpa {margin-top: 40px; margin-left: 219px;}
+li#cap {margin-top: 13px; margin-left: 278px;}
+li#cma {margin-top: 94px; margin-left: 366px; z-index:9999;}
+li#cto {margin-top: 156px; margin-left: 338px;}
+li#cse {margin-top: 221px; margin-left: 519px; z-index:9998;}
+li#cal {margin-top: 211px; margin-left: 518px; z-index:9999;}
+li#cpe {margin-top: 188px; margin-left: 473px;}
+li#cpb {margin-top: 169px; margin-left: 511px; z-index:9999;}
+li#crn {margin-top: 151px; margin-left: 514px;}
+li#cce {margin-top: 121px; margin-left: 473px;}
+li#cpi {margin-top: 120px; margin-left: 406px; z-index:9997;}
+
+ul#map li a {display: block; text-decoration: none; position: absolute;}
+a#rs {width: 116px; height: 101px; }
+a#sc {width: 81px; height: 53px; }
+a#pr {width: 97px; height: 64px; }
+a#sp {width: 131px; height: 84px; }
+a#ms {width: 106px; height: 104px; }
+a#rj {width: 58px; height: 40px; }
+a#es {width: 33px; height: 51px; }
+a#mg {width: 163px; height: 131px; }
+a#go {width: 108px; height: 108px; }
+a#df {width: 16px; height: 9px; }
+a#ba {width: 136px; height: 148px; }
+a#mt {width: 166px; height: 161px; }
+a#ro {width: 104px; height: 87px; }
+a#ac {width: 108px; height: 62px; }
+a#am {width: 258px; height: 181px;}
+a#rr {width: 87px; height: 103px; }
+a#pa {width: 188px; height: 187px; }
+a#ap {width: 73px; height: 85px; }
+a#ma {width: 102px; height: 139px; }
+a#to {width: 74px; height: 125px; }
+a#se {width: 28px; height: 32px; }
+a#al {width: 46px; height: 27px; }
+a#pe {width: 97px; height: 34px; }
+a#pb {width: 59px; height: 35px; }
+a#rn {width: 53px; height: 33px; }
+a#ce {width: 61px; height: 76px; }
+a#pi {width: 83px; height: 124px; }
+
+a#pa:hover, a#pa:active, a#am:hover, a#am:active, a#mt:hover, a#mt:active, a#ba:hover, a#ba:active, a#ma:hover, a#ma:active,
+a#mg:hover, a#mg:active, a#to:hover, a#to:active, a#pi:hover, a#pi:active, a#go:hover, a#go:active, a#ms:hover, a#ms:active,
+a#rr:hover, a#rr:active, a#rs:hover, a#rs:active, a#ro:hover, a#ro:active, a#ap:hover, a#ap:active, a#sp:hover, a#sp:active,
+a#ce:hover, a#ce:active, a#pr:hover, a#pr:active, a#ac:hover, a#ac:active, a#sc:hover, a#sc:active, a#es:hover, a#es:active,
+a#rj:hover, a#rj:active, a#pb:hover, a#pb:active, a#pe:hover, a#pe:active, a#rn:hover, a#rn:active, a#se:hover, a#se:active,
+a#al:hover, a#al:active, a#df:hover, a#df:active
+{ display: block; background: url('http://apachedrupal.desenvolvimento.prf/drupal_dev/mapa2/img/sprite.gif') no-repeat; }
+
+a#pa:hover, a#pa:active { background-position: -10px -0px; width: 188px; height: 187px; }
+a#am:hover, a#am:active { background-position: -10px -197px; width: 258px; height: 181px; }
+a#mt:hover, a#mt:active { background-position: -10px -388px; width: 166px; height: 161px; }
+a#ba:hover, a#ba:active { background-position: -10px -559px; width: 136px; height: 148px; }
+a#ma:hover, a#ma:active { background-position: -156px -559px; width: 102px; height: 139px; }
+a#mg:hover, a#mg:active { background-position: -10px -717px; width: 163px; height: 131px; }
+a#to:hover, a#to:active { background-position: -183px -717px; width: 74px; height: 125px; }
+a#pi:hover, a#pi:active { background-position: -10px -858px; width: 83px; height: 124px; }
+a#go:hover, a#go:active { background-position: -103px -858px; width: 108px; height: 108px; }
+a#ms:hover, a#ms:active { background-position: -103px -976px; width: 106px; height: 104px; }
+a#rr:hover, a#rr:active { background-position: -10px -992px; width: 87px; height: 103px; }
+a#rs:hover, a#rs:active { background-position: -107px -1090px; width: 116px; height: 101px; }
+a#ro:hover, a#ro:active { background-position: -10px -1201px; width: 104px; height: 87px; }
+a#ap:hover, a#ap:active { background-position: -10px -1105px; width: 73px; height: 85px; }
+a#sp:hover, a#sp:active { background-position: -124px -1201px; width: 131px; height: 84px; }
+a#ce:hover, a#ce:active { background-position: -186px -388px; width: 61px; height: 76px; }
+a#pr:hover, a#pr:active { background-position: -124px -1295px; width: 97px; height: 64px; }
+a#ac:hover, a#ac:active { background-position: -10px -1298px; width: 108px; height: 62px; }
+a#sc:hover, a#sc:active { background-position: -128px -1369px; width: 81px; height: 53px; }
+a#es:hover, a#es:active { background-position: -208px -0px; width: 33px; height: 51px; }
+a#rj:hover, a#rj:active { background-position: -186px -474px; width: 58px; height: 40px; }
+a#pb:hover, a#pb:active { background-position: -10px -1370px; width: 59px; height: 35px; }
+a#pe:hover, a#pe:active { background-position: -10px -1415px; width: 97px; height: 34px; }
+a#rn:hover, a#rn:active { background-position: -186px -524px; width: 53px; height: 33px; }
+a#se:hover, a#se:active { background-position: -208px -61px; width: 28px; height: 32px; }
+a#al:hover, a#al:active { background-position: -208px -103px; width: 46px; height: 27px; }
+a#df:hover, a#df:active { background-position: -208px -140px; width: 16px; height: 9px; }
+
+ul#map li a img {border: 0; width: inherit; height: inherit;}
+/* ------------------------------------- */
+/* FIM MAPA */
+/* ------------------------------------- */
+
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 434px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  
+  .row.content {height:auto;} 
+
+  .assinatura img {
+    width: 100% !important;
+    height: 70% !important;
+    margin-left: 0% !important;
+    margin-top: 0% !important;
+  }
+
+  #searchFull {
+    margin-bottom: 70px !important;
+  }
+
+  #searchFullResult{
+    width: 250px;
+  }
+
+  .container .brasaoResult {
+    margin: 0 25px 0 100px;
+  }
+
+  .blockResult{
+    padding: 0px;
+  }
+
+  .blockRespostas{
+    display: none;
+  }
+
+  .elastic .ng-binding {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .lexml .link-color {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  #idSubMenuResp {
+    display: block !important;
+  }
+
+  /*ul#map {display: block; margin: 0; padding: 0; width: 285px; height: 293px; background-image: url('http://apachedrupal.desenvolvimento.prf/drupal_dev/mapa2/img/map.gif');}*/
+}
+
+@media screen and (min-width: 748px) {
+  .assinatura img {
+    width: 80% !important;
+    height: 50% !important;
+    margin-left: 10% !important;
+    margin-bottom: -15% !important;
+    margin-top: -18% !important;
+  }
+
+  #searchFull {
+    margin-bottom: 45px !important;
+  }
+
+  .elastic .ng-binding {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+   #idSubMenuResp {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+.form-inline .form-control {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn, .form-inline .input-group .form-control {
+      width: auto;
+      margin-bottom: 0px !important;
+  }
+}

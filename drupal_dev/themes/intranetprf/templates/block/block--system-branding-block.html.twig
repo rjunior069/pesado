@@ -1,0 +1,41 @@
+{% extends "block--bare.html.twig" %}
+{#
+/**
+ * @file
+ * Default theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ *
+ * @ingroup templates
+ */
+#}
+{% block content %}  
+  {% if site_name %}
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <a class="name navbar-brand navbar-text" href="https://homologacao.prf.gov.br/drupal_dev/"><b class="prf"><img width="70" height="25" src="https://www.prf.gov.br/design/assets/img/PRF-small.png" style="margin:-3px 0px 16px 0px"></b></a>
+        <a class="name navbar-brand navbar-text" href="https://homologacao.prf.gov.br/drupal_dev/" title="{{ 'Início'|t }}" rel="home">Intranet
+      </a>
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.facebook.com/prfoficial" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/prfbrasil" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/prfoficial/?hl=pt" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCC8hr_mloGmG7tnogjfuPoA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>   
+
+  {% endif %}
+  {% if site_logo %}
+    <a class="logo navbar-btn pull-left" href="{{ path('<front>') }}" title="{{ 'PAINEL'|t }}" rel="home">
+      <img src="{{ site_logo }}" alt="{{ 'PAINEL'|t }}" />
+    </a>
+  {% endif %}
+  {% if site_slogan %}
+    <p class="navbar-text">{{ site_slogan }}</p>
+  {% endif %}
+{% endblock %}
