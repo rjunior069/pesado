@@ -1,4 +1,0 @@
-default_formats:
-  - json
-default_authentication:
-  - cookie

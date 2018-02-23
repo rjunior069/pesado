@@ -1,5 +1,0 @@
-jcarousel.config:
-  title: jCarousel configuration
-  description: 'jCarousel configuration'
-  route_name: jcarousel.config
-  parent: system.admin_config
