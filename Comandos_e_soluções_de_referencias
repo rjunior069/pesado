@@ -1,0 +1,575 @@
+limpar cache.08656006998201629'
+echo 3 > /proc/sys/vm/drop_caches   
+cd /homerein	Documentos
+----------------------------------------
+usuário para teste de login
+33286302600
+82203121149
+
+Biax2007#
+
+
+WebSocketWorker
+--------------------------------
+Referencias  para connexões
+
+ 
+ SET ISOLATION TO DIRTY READ
+ <new-connection-sql>SET LOCK MODE TO WAIT</new-connection-sql
+<new-connection-sql>SET ISOLATION TO DIRTY READ</new-connection-sql>
+<new-connection-sql>SET LOCK MODE TO WAIT 60</new-connection-sql>
+
+<check-valid-connection-sql>select first 1 tabid  from systables</check-valid-connection                        
+ br.gov.dprf.sinarf.entidade.Log
+
+ http://172.17.30.188:8380/DPRFWebServices/SerproWS
+ http://172.17.30.3/callRenavam.asp?parametro=
+
+
+
+
+
+  mount -t smbfs -o username=Administrador //192.168.0.15/comp /mnt/comp 
+
+  Looking for a JTA transaction to join
+2015-09-09 09:46:12,327 DEBUG [org.hibernate.ejb.AbstractEntityManagerImpl] Transaction already joined
+
+Ticket#280086271 — [SISCOM] Disponibilizar build em teste  atendido
+-----------------------------------------------------------------------------------------------------
+mount disk renainf
+mount -t cifs -o username=Nut3l@dmin,password=123456 //10.0.102.19/c$ /mnt/shared
+mount -t cifs -o username=renainf,password=Senha123 //10.0.11.50/c$ /mnt/renainf
+mount -t cifs -o username=Administrator,password=aA123456,domain=DATACENTER1,noserverino //10.0.102.19/c$ /mnt/renainf deu certo windows r12
+--------------------------------------------------------------------------------------------
+regra no 
+
+
+
+-A OUTPUT -d 10.0.11.50 -p tcp -m tcp --dport 8080 -j DNAT --to-destination 10.0.102.19
+-A OUTPUT -d 10.0.11.50 -p tcp -m tcp --dport 8080 -j DNAT --to-destination 10.0.102.19
+-------------------------------------------------------------------------------------------------
+usuário para logar e testar login de aplicações
+332.863.026-00
+24ePSb
+
+-------------------------------------------------------------------------------------------------------
+local do jboss onde ocorre o erro no perfil do operador  do siscom
+/opt/jboss-eap-4.3/jboss-as/server/allP02
+
+---------------------------------------------------------------------------------------------------------
+string de teste motor de consulta
+http://10.0.11.220:8080/MotorConsultas/consulta?matricula=1481190&cpf=09994423762&objeto=VEICULO&campo=PLACA&chave=QHF9220&sistema=22
+
+----------------------------------------------------------------------------------------------------------------------------------------
+monitoramento acesso ao sistema alerta sem restrição de firewall, rede da Sede
+
+----------------------------------------------------------------------------------------------------
+
+/usr/local/sublime-text-3/sublime_text_3 nohup ./sublime_text
+openvpn --config /home/reinaldo.junior/Documentos/ArquivosVPN/VPN_DITEL.ovpn
+
+------------------------------------------------------------------------------------------------------
+Proxy de PE - 10.11.0.4 porta 3124 
+
+1442609678.099    706 10.103.40.30 TCP_MISS/302 600 POST http://www.prf.gov.br/alerta/SolicitacaoEdit.seam - HIER_DIRECT/189.9.13.194 text/plain
+1442609678.334    226 10.103.40.30 TCP_MISS/200 6074 GET http://www.prf.gov.br/alerta/SolicitacaoEditSucesso.seam? - HIER_DIRECT/189.9.13.194 text/html
+1442609678.666    107 10.103.40.30 TCP_MISS/404 953 GET http://www.prf.gov.br/alerta/stylesheet/none - HIER_DIRECT/189.9.13.194 text/html
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+rvleilao 10.0.12.28 desativado.
+----------------------------------------------------------------------------------------------------------------------------------------------
+arquivos compartilhados 
+
+Caminho: smb://10.0.104.101/arquivos_dite
+lUsuario: administrator
+Domain: MYGROUP
+Senha: aA123456
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Pau no portal. 10.0.102.12.
+verificar processo zombie
+load average alto. matar todos os processos e subir na ordem
+plone.
+httpd
+haproxy 
+& 
+varnish
+---------------------------------------------------------
+verificar conexões estabelecidas
+netstat -cn|grep tcp|grep ESTAB
+
+-------------------------------------------------------------------------
+verificar e matar processo zommbie(verificar qual é o processo antes de ma ar
+ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]'
+
+
+kill -HUP `ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]'
+---------------------------------------------------------------------------------
+verificar conexões
+ netstat -ant | awk '{print $6}' | sort | uniq -c | sort -n
+------------------------------------------------------------------------------------
+
+Informações Doa
+
+###################################################
+#PRODUÇÃO BRASÍLIA
+###################################################
+database.driverClassName=com.mysql.jdbc.Driver
+database.url=jdbc\:mysql\://10.0.11.105:3306/dbdoa
+database.username=doa_app
+database.password=Sabia@123
+--------------------------------------------------------------------------------------
+usuário samba
+criar usuário samba
+smbpasswd -a usuario 
+definir senha de usuário
+smbpasswd  usuario
+
+[indicação do diretório]
+        path = /mpir/Imagens
+        valid users = alberto.torres
+        read only = No
+        locking = No
+
+
+
+----------------------------------------------------
+Capturar logs
+ sed -n '/2016-01-05 20:00/ , /2016-01-05 20:30/p' server.log.2016-01-05 > /tmp/2016-01-05.log ; cat /tmp/2016-01-05.log
+
+---------------------------------------------------------------------------------------
+httpd
+Iniciando o httpd: 
+ netstat -ltnp | grep ':80'
+
+
+-----------------------------------------------------------------------------------------
+
+[Jboss-as-7.1.1-final]
+
+        path = /opt/jboss-as-7.1.1.Final/standalone/log/
+        valid users = diasilogs
+        read only = Yes
+        locking = No
+
+        export DISPLAY=10.0.102.59:0
+        485155
+
+nter the details of the new user to add.
+Realm (ApplicationRealm) : 
+Username : mstr
+Password : Mstr@2016
+
+-------------------------------------------------------------
+verificar conexões tcp
+ netstat -cn|grep tcp
+ ------------------------------------------------------------
+82203121149
+JKmiser123
+
+61693387373
+-----------------------------------------------------
+Desligar GCoverhead=-XX:-UseGCOverheadLimit
+-----------------------------------------------------
+------------------------------------------------------------------------------------------------
+configuração ssl jboss7 modo standalone
+ <subsystem xmlns="urn:jboss:domain:web:1.1" default-virtual-server="default-host" native="false">
+            <connector name="http" protocol="HTTP/1.1" scheme="http" socket-binding="http" redirect-port="443"/>
+            <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" enable-lookups="false"  secure="true">
+            <ssl name="https" key-alias="seguranca" password="123456"  certificate-key-file="/opt/jboss/standalone/configuration/seguranca.keystore" />
+            </connector>
+-----------------------------------------------//---------------------------------------------------
+
+
+1 <connector name="http" protocol="HTTP/1.1" scheme="http" socket-binding="http"/>
+            <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
+                <ssl name="https" key-alias="seguranca" password="123456" certificate-key-file="/opt/jboss/standalone/configuration/seguranca.keystore"/>
+            </connector>
+
+----------------------------------------------
+sipac
+-XX:+UseConcMarkSweepGC 
+-------------------------------------------------------------
+numero conexões abertas com porta de banco especifica.
+netstat -tn | grep 5432 | wc -l
+------------------------------------------------------------------------------
+Configuração mod cluster
+LoadModule manager_module modules/mod_manager.so
+LoadModule advertise_module modules/mod_advertise.so
+
+MemManagerFile /var/cache/mod_cluster
+ManagerBalancerName mycluster
+Maxcontext 100
+Maxnode 100
+Maxhost 100
+Listen 10.22.1.77:81
+<VirtualHost 10.22.1.77:81>
+<Directory />
+Order deny,allow
+Allow from all
+AuthType Basic
+Require all granted
+</Directory>
+<Location /mod_cluster_manager>
+SetHandler mod_cluster-manager
+Order deny,allow
+Deny from all
+Allow from 10.22.
+AuthName "mod_cluster_manager"
+AuthUserFile /etc/modclusterpassword
+Require user admin
+Require all granted
+</Location>
+AdvertiseFrequency 5
+KeepAliveTimeout 60
+MaxKeepAliveRequests 0
+ServerAdvertise On
+
+EnableMCPMReceive On
+</VirtualHost>
+----------------------------------------------------------------
+habilitando compactação de arquivos no apache.
+Solução: 
+*inserir a linha LoadModule deflate_module modules/mod_deflate.so  (caso necessário, pois o apache pode alertar de que o modulo já esta habilitado)
+
+
+inserir configurações deflate no arquivo httpd.conf do apache
+
+<<IfModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+   ##Outout Compression( tipos de arqivos a serem copactados)
+    <Directory "/your-server-root/manual">
+    AddOutputFilterByType DEFLATE text/html application/javascript application/x-javascript text/plain text/css text/xml application/xml application/xhtml+xml application/rss+xml svg
+</Directory>
+    #Don't compress(tipos de arquivos que não serão compactados)
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+    SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+    #Dealing with proxy servers
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent
+    </IfModule>
+</IfModule>
+
+executar httpd -t para validar sitaxe 
+Reiniciar apache
+----------------------------------------------------------------------
+Alterar senha do banco mysql
+parar banco de dados
+skip-grant-tables
+
+ALTER-USER 'root@localhost' IDENTIFIELD BY 'new_password';
+--------------------------------------------------------------------------
+ find /home/* -type d -exec chmod g+s '{}' \;
+– Remover todos os arquivos em /home que terminem com .tmp:
+ find /home -type f -name '*.tmp' -exec rm -f '{}' \;
+-----------------------------------------------------------
+ntpdate
+ntpdate br.pool.ntp.org
+---------------------------------------
+alterar teclado para formato americano
+loadkeys us 
+---------------------------------------------------------
+hostname=$(/bin/hostname | cut -d"." -f1)
+--------------------------------------------------------
+
+acessar servidor sem senha
+ssh-keygen -t rsa
+apertar enter em todas as opções 
+copiar a chave para o servidor remoto
+s
+
+
+acessar o servidor remoto
+ssh root@ipdoservidor
+copiar a chave para autorizaçãop
+cat /tmp/id_rsa.pub >> /root/.ssh/authorized_keys
+-----------------------------------------------------------
+verificando os maiores arquivos de  logs 
+$ du -a / | sort -n -r | head -n 5
+-------------------------------------------------
+aumentar ou diminuir volume audio dos postos.
+
+nohup pulseaudio -vvv
+amixer -D pulse sset Master 30%+
+-----------------------------------------------------------
+Adicionando monitoramento jmx jboss ao zabbix
+"org.jboss.byteman,org.jboss.logmanager"
+###configuração moniroramento jmx zabbix######
+   JAVA_OPTS="$JAVA_OPTS -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
+   JAVA_OPTS="$JAVA_OPTS -Xbootclasspath/a:/opt/jboss/modules/org/jboss/logmanager/main/jboss-logmanager-1.2.2.GA.jar"
+   JAVA_OPTS="$JAVA_OPTS -Xbootclasspath/a:/opt/jboss/modules/org/jboss/logmanager/log4j/main/jboss-logmanager-log4j-1.0.0.GA.jar"
+   JAVA_OPTS="$JAVA_OPTS -Xbootclasspath/a:/opt/jboss/modules/org/apache/log4j/main/log4j-1.2.16.jar"
+   JAVA_OPTS="$JAVA_OPTS -Djboss.server.default.config=standalone.xml -Djava.rmi.server.hostname=10.100.100.22"
+   JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote"
+   JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote.port=9991"
+   JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote.ssl=false"
+   JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote.authenticate=false"
+-----------------------------------------------------------------------------
+Inserindo usuário a grupo especifico para permissão de acesso rwx a pasta
+
+usermod -G grupo -a usuário
+-Djava.rmi.server.hostname=10.100.100.115"
+-----------------------------------------------------------------------------------
+ Resolvendo problema Cabeçalho V4 RSA/SHA512 Signature, ID da chave a14fe591: NOKEY zabbix
+ yum install http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-get-3.4.8-1.el7.x86_64.rpm
+
+ rpm -ivh --force http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-agent-3.4.8-1.el7.x86_64.rpm
+----------------------------------------------------------
+Corrigindo error jboss JBAS015052
+
+I was deploying my ear applications into jboss-as-7.1.1-Final on standalone server and got some errors on deployment.
+
+ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015052: Did not receive a response to the deployment operation within the allowed timeout period [60 seconds]. Check the server configuration file and the server logs to find more about the status of the deployment.
+
+The resolution is quite easy:
+Goto $JBOSS_HOME/standalone/configuration/
+Open standalone.xml then find node 
+<subsystem xmlns="urn:jboss:domain:deployment-scanner:1.1">
+   <deployment-scanner path="deployments" 
+      relative-to="jboss.server.base.dir" 
+      scan-interval="5000" />
+</subsystem>
+Add attribute deployment-timeout, the value is in seconds. I chose the deployment time-out after 20 minutes. So the scanner node looks like: 
+<subsystem xmlns="urn:jboss:domain:deployment-scanner:1.1">
+     <deployment-scanner path="deployments" relative-to="jboss.server.base.dir" 
+      scan-interval="5000" deployment-timeout="1200"/>
+</subsystem>
+
+Reference: https://docs.jboss.org/author/display/AS7/Deployment+Scanner+configuration 
+-------------------------------------------------------------------------
+informar apenas IP do servidor 
+ifconfig tun0 | grep inet | awk '{print $2}'
+--------------------------------------------------------------
+substituição de caraccteres dentro de um arquivo arquivos.
+
+perl -i  -pe 's/windows/linux/;'  teste*
+----------------------------------------------------------------
+colocando ntpdate crontab
+ 00 * * * * ntpdate -u pool.ntp.org
+-------------------------------------------------------------
+Ajustar tamanho de arquivos na tabela do banco de dados.
+set global max_allowed_packet = 500*1024*1024;
+
+-------------------------------------------------
+mudando hora de servidor linux quando não funciona modo tradicional
+criar link simbólico do localtime
+delete localtime /etc/localtime
+ln -s  /usr/share/zoneinfo/America/Recife localtime
+--------------------------------------------------------------------------------------
+achar ip externo no 
+
+
+-------------------------------------------------------------------------------
+Verificar conexões
+
+netstat -nat | awk '{print $6}' | sort | uniq -c | sort -n
+
+----------------------------------------------------------------------------------
+set global max_allowed_packet = 500*1024*1024;
+
+SHOW VARIABLES max_allowed_packet;
+________________________________________________________
+Problema de redirecionamento com proxy permanent nginx
+rewrite ^/oldlocation$ http://www.newdomain.com/newlocation permanent;
+#rewrite ^/(.*)$ http://www.prf.gov.br/$1 permanent;
+---------------------------------------------------------------------------
+incia jboss docker
+I then start the container using
+docker run -it -p8080:8080 -p 9990:9990 jboss/wildfly-admin
+
+--------------------------------------------------------------
+Verficando kernel da maquina
+rpm -qa kernel |sort -V |tail -n 1
+-----------------------------------------------
+informar tempo de acesso ao servidor linux para determinado usuário
+chage -l nome do usuário lista informações do usuário
+chage -M 10 nome_do_usuário acesso a 10 dias 
+chage -M 99999 nome_do_usuário nunca expirar
+------------------------------------------------
+Instalando agent zabbix.
+zabbix-agent-2.4.8-1.el7.x86_64
+---------------------------------------------------------------
+ssh-keygen -t rsa
+Após gerar a chave públic, envie-a para o servidor
+
+scp ~/.ssh/id_dsa.pub USUARIO_REMOTO@SERVIDOR:/home/USUARIO_REMOTO/.ssh/
+Por fim habilite a chave no servidor.
+
+cd ~/.ssh/
+cat id_dsa.pub >> authorized_keys
+chmod 644 authorized_keys
+-----------------------------------------------------------------------------
+Problemas Conhecidos
+1. Problema com validação de certificados HTTPS
+Caso o ambiente do ConectaGov PEN utilizado nesta configuração esteja utilizando HTTPS com certificado digital não reconhecido pela ICP-Brasil, será necessário configurar a cadeia não reconhecida como confiável nos servidores de aplicação do SEI. Com isto, os seguintes comandos precisam ser executados em cada nós de aplicação do SEI, incluindo aquele responsável pelo tratamento das tarefas agendadas.
+
+Caso o sistema seja Debian ou Ubuntu:
+
+# Copie o certificado da cadeia de CA (Autoridade Certificadora) que assinou o certificado # fornecido PEN, para o diretório /usr/local/share/ca-certificates:
+
+    cp <CADEIA-CERTIFICADO-CA> /usr/local/share/ca-certificates
+
+#Efetue a atualização da lista de certificados confiáveis do sistema operacional
+
+    sudo update-ca-certificates
+Caso o sistema seja CentOS 6:
+
+# Instalar o pacote ca-certificates package:
+
+    yum install ca-certificates
+
+# Habilitar o recurso de configuração dinâmica de CA
+
+    update-ca-trust force-enable
+
+# Copiar o arquivo da CA (Autoridade Certificadora) que assinou o certificado fornecido 
+# no passo 7, para a pasta /etc/pki/ca-trust/source/anchors/: 
+
+    cp <CADEIA-CERTIFICADO-CA> /etc/pki/ca-trust/source/anchors/
+
+# Usar o comando
+
+    update-ca-trust extract
+
+----------------------------------------------------------------------------------------------------
+Verificar quando sistema linux foi insalado 
+ls -lct /etc | tail -1 | awk '{print $6, $7, $8}'
+-----------------------------------------------------------------------
+Procedimento de Instalação do certificado digital do Serpro na JVM
+Procedimento realizado para o chamado 15980. Instalar certificado digital na JVM do Nada Consta e no Renainf
+
+Obs: Colocar o certificado que será importado na máquina que está a JVM instalada
+
+—- Entrar no diretório que está o cacerts da JVM
+
+[usuario@host diretorio]# cd /usr/java/default/jre/lib/security/
+—- VERIFICA SE EXISTE O CERTIFICADO
+
+[usuario@host diretorio]# keytool -list -v -keystore cacerts -alias cobranca.bb.com.br
+–DELETA O CERTIFICADO
+
+[usuario@host diretorio]# keytool -delete -keystore cacerts -alias cobranca.bb.com.br
+–IMPORTA CERTIFICADOS
+
+[usuario@host diretorio]# keytool -import -alias cobranca.bb.com.br -keystore cacerts -file /home/fabio.tavares/cobranca.bb.com.br.cer
+[usuario@host diretorio]# keytool -import -alias ac.certisign.g7 -keystore cacerts -file /home/fabio.tavares/ACCertisignG7.cer
+[usuario@host diretorio]# keytool -import -alias ac.certisign.multipla.ssl -keystore cacerts -file /home/fabio.tavares/ACCertisignMultiplaSSL.cer
+[usuario@host diretorio]# keytool -import -alias autoridade.certificadora.raiz -keystore cacerts -file /home/fabio.tavares/ACRaizV5.cer
+–VERIFICA SE EXISTE FOI ADICIONADO O CERTIFICADO
+
+[usuario@host diretorio]# keytool -list -v -keystore cacerts -alias cobranca.bb.com.br
+[usuario@host diretorio]# keytool -list -v -keystore cacerts -alias ac.certisign.g7
+[usuario@host diretorio]# keytool -list -v -keystore cacerts -alias ac.certisign.multipla.ssl
+[usuario@host diretorio]# keytool -list -v -keystore cacerts -alias autoridade.certificadora.raiz
+---------------------------------------------------------------------------------------------------------------------------
+linpar log
+
+find /opt/wildfly/domain/servers/host-adi-01/log -type f -mtime +10 -exec rm -vf {} \;
+-------------------------------------------------------------------------------------------------------------
+
+url de teste motor de consultas
+http://10.0.11.220:8080/MotorConsultas/consulta?paralelo=true&matricula=2071526&cpf=60145960625&objeto=VEICULO&campo=PLACA&chave=JKL2312&sistema=36&sistema=22
+
+
+.Smbcredentials
+
+mount -v -t cifs -o user=Administrador,pass=aA123456,domain=DATACENTER1 //10.0.102.19/c$ /mnt/renainf
+mount.cifs kernel mount options: ip=10.0.102.19,unc=\\10.0.102.19\c$,user=Administrador,domain=DATACENTER1,pass=********
+
+
+
+mount -t cifs -o username=Administrator,password=aA123456,domain=DATACENTER1,noserverino //10.0.102.19/c$ /mnt/renainf deu certo
+
+61986493134
+996320079 luciene
+
+
+
+Na tijuquinha.
+ cartao
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCYF2ytzdKMhlychLuNlTMWLWm1bc1z5XULGXk7/pelieun5M2cbf5Z0oz3pDqOlML30JIuhsmcUAxgpZl/Y5226yoQTISD3Fd2Qq32RhyYa3xlXLxSa0cygbVXhXZFoPtpr8HMahAL2qOuC9+p1PF0Gk0wNKrj9BCT2iOX43ulTJaynASsL7B9m4kCKHSywl+rM/OIOk7xYxnn9pUef+wWBhDaUEciyAYZOXb0gXf3HeF5VGApVDdgKAhuJ+B4QMnBGgtarCJXMYeLPoKRnfQ7xgCuIR/UWSbJokmcbkleYMwAvfswxdMU8pcLz9XU3TAzRpD9Q8c8LIvaQeLUJ39N reinaldo.junior@reinaldo.junior
+
+
+Gabriel Vinicius Moreira
+ag 2892 cc 49724-x
+
+056.766.131-81
+
+
+
+
+Regulamento liga ganhou levou R$5,00 por rodada, inscrição confirmada após envio de comprovante, controle de times realizado por app de terceiros e do proprio cartola. Pagamento realizado em até 2 dias após encerramento da rodada.
+só isso simples e facil, sem churumelas...
+liga com mais de 50 participantes será retirado 5% para comissão organizadora. 1° colocado 60%, 2°40%(35% após atigir o numero de participantes informado anteriormente.).
+
+
+
+Mãe, só quem pode solicitar quebra de sigilo telefonico é a policia com autorização judicial, a senhora indo a defensoria publica, ira demorar muito mais, e os advigados não irão passar por cima de um juiz não. 
+
+
+
+<secret value="ITFxYXoyd3N4" /> wildfly hosts homologacao
+
+
+Após verificação da existencia da maquina, a mesma foi acessada, alterado datasources para idlegado na porta 5822, em todos os arquivos sql.ini encontrado no qual se referenciava há 10.0.11.100.
+tentativa de iniciar app Almoxerifado, sem sucesso.
+não temos documentação de aplicação  ASI, não idenficamos qual serviço ou/e porta utilizada pela mesma.
+ip 10.0.102.34.
+Não foi possível a restauração da instancia solicita. 
+
+Todos os servidores do sei foram verificado, não encontrado nenhum problema  que possa esta causando tal desempenho abaixo do normal.
+nenhuma anormalidade encontrada.
+
+alterado datasource renainf default
+
+
+
+
+error portal
+[root@drupal portal]# git pull
+remote: Enumerating objects: 63, done.
+remote: Counting objects: 100% (63/63), done.
+remote: Compressing objects: 100% (48/48), done.
+remote: Total 50 (delta 20), reused 2 (delta 0)
+Unpacking objects: 100% (50/50), done.
+From git.prf:eder.santos.prestador/portal
+   20848c5..d6756f8  development -> origin/development
+Updating 20848c5..d6756f8
+error: Your local changes to the following files would be overwritten by merge:
+  themes/prf/css/style.css
+Please, commit your changes or stash them before you can merge.
+Aborting
+[root@drupal portal]# 
+
+
+
+<secret value="cmVkaGF0" />redha
+
+
+<secret value="YWRtaW4=" />admin
+
+wildfly10-hc06
+
+
+wildfly10-hc05 =4100     2019-04-11 as 07=1  2019-04-11 as 08=12   2019-04-11 as 09=9
+wildfly10-hc06=3955      2019-04-11 as 07=0  2019-04-11 as 08=6   2019-04-11 as 09=3
+wildfly10-hc07=3996      2019-04-11 as 07=0  2019-04-11 as 08=8   2019-04-11 as 09=15
+wildfly10-hc08=3955      2019-04-11 as 07=0  2019-04-11 as 08=10   2019-04-11 as 09=7
+
+
+61982008718
+107228752
+cpf tia lia 52464091120
+cpf kayki 08316550113
+cpf alicia 0831653415
+
+rjunio069@gmail.com
+
+divino rosa dias
+
+joseane maria 
+smile
+382485633
+
+
