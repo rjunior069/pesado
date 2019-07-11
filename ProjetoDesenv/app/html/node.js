@@ -4,12 +4,12 @@ const app = express();
 
 app.get("/", function(req, res){
 //    res.send("Welcome to my app!");
-      res.sendFile(__dirname + "/html/index.html"); //chamando caminho absoluto do index.html, evitando error app.
+      res.sendFile(__dirname + "/index.html"); //chamando caminho absoluto do index.html, evitando error app.
 });
 
 app.get("/sobre", function(req, res){
  //   res.send("Minha pagina Sobre");
-      res.sendFile(__dirname + "/html/sobre.html"); //linkando sobre.html ao meu app.
+      res.sendFile(__dirname + "/sobre.html"); //linkando sobre.html ao meu app.
 });
 
 app.get("/blog",function(req, res){
