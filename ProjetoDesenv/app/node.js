@@ -73,3 +73,9 @@ app.listen(8081, function(){
 
 });
 
+//Imagens
+app.get("/imagens", function(req, res){
+    //   res.send("Minha pagina Solucoes");
+         res.sendFile(__dirname + "/html/termodeuso.html"); //linkando termodeuso.html ao meu app.
+});
+

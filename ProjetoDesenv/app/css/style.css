@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+.barra.superior {
+    border-bottom: 1px solid;
+    color: rgba(128, 255, 0, 0.555);
+
+}
+.barra.superior .container {
+    max-width:  960px;
+    width: 100%;
+    margin: 0 auto;
+
+}
