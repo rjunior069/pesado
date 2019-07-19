@@ -1,0 +1,6 @@
+Documentação microserviços
+-------------------------------------------------------------------------------------------
+Comando para Deploy Silver em Homologação no ambiente de microserviço
+docker run -d --name silver-frontend -p 81:8101 registry.prf.gov.br/sistemas-nacionais/operacionais/dft/silver/silver-frontend:0.2
+docker run -d --name silver-backend -p 8180:8100 registry.prf.gov.br/sistemas-nacionais/operacionais/dft/silver/silver-backend:0.2 --restart always
+--------------------------------------------------------------

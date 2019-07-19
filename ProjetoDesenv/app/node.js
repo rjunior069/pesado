@@ -79,3 +79,4 @@ app.get("/imagens", function(req, res){
          res.sendFile(__dirname + "/html/termodeuso.html"); //linkando termodeuso.html ao meu app.
 });
 
+
