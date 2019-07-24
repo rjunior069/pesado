@@ -119,6 +119,7 @@ class CreateProfile extends Component {
     const options = [
       { label: "* Situação Profissional", value: "0" },
       { label: "SysAdmin", value: "SysAdmin" },
+      { label: "Analista de Aplicação", value: "Analista de Aplicação" },
       { label: "Developer", value: "Developer" },
       { label: "SRE", value: "SRE" },
       { label: "Gerente", value: "Gerente" },
