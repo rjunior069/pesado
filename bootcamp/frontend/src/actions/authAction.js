@@ -33,7 +33,13 @@ export const loginUser = userData => dispatch => {
     .catch(err =>
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        _payload: err.response.data,
+        get payload() {
+          return this._payload;
+        },
+        set payload(value) {
+          this._payload = value;
+        },
       })
     );
 };
